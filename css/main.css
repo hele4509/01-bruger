@@ -18,10 +18,15 @@ nav ul{
   flex-direction: row;
   list-style: none;
   padding-left: 0;
+    text-align: center;
+    font-size: .8em;
+
 }
 nav ul li {
     position: relative;
     padding-right: 2em;
+        font-family: 'ryeregular';
+
 }
 
 .dropdown > ul {
@@ -40,7 +45,20 @@ nav ul li {
 
 .dropdown:hover > ul {
     display: block;
+    color:white;
+
 }
+
+
+@media only screen and (max-width: 500px) {nav .content a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .2em;
+    }
+}
+
+
+/*** TEXT ***/
 
 p {
     font-family: futura-pt, sans-serif;
